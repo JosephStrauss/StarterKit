@@ -1,4 +1,3 @@
-import webpack from 'webpack';
 import path from 'path';
 
 export default {
@@ -18,7 +17,7 @@ export default {
   output: {
     path: path.resolve(__dirname, 'src'),
     publickPath: '/',
-    filename: bundle.js
+    filename: 'bundle.js'
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'src')
